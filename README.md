@@ -9,6 +9,7 @@ git clone https://github.com/melodyxchen/2024-AI-CUP_Recursive-Retrieval.git
 cd 2024-AI-CUP_Recursive-Retrieval
 ```
 ### 2. Install the required Python packages:
+Python version: 3.10.14
 ```bash
 pip install -r requirements.txt
 ```
