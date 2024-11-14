@@ -21,10 +21,10 @@ export LLAMA_CLOUD_API_KEY="your-api-key-here"
 ## Folder Descriptions
 
 - `Preprocess/`: Scripts for processing documents before retrieval.
-  - `parsing.py`: Handles pdf parsing of financial and insurance documents.
+  - `parsing.py`: Handles pdf parsing of financial and insurance documents. Embedding model: bce-embedding-base_v1.
   - `index.py`: Manages document indexing and stores the indicies with node references.
 - `Model/`: Scripts for running recursive retrieval.
-  - `retriever.py`: Implements the retrieval and reranking of documents based on queries.
+  - `retriever.py`: Implements the retrieval and reranking of documents based on queries. Reranker:maidalun1020/bce-reranker-base_v1
     
 - `requirements.txt`: Specifies the packages required to run the project.
 
